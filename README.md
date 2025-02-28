@@ -1,4 +1,4 @@
-This project implements a custom programming language using YACC/Bison for syntax parsing and C++ for semantic analysis and execution. The language supports fundamental programming constructs, including:
+This project implements a custom programming language using YACC for syntax parsing and C++ for semantic analysis and execution. The language supports fundamental programming constructs, including:
 
 Type Declarations: int, float, char, string, bool, and array types.
 
