@@ -15,4 +15,5 @@ Symbol Table: Scope management for global, block, function, and class scopes.
 Semantic Analysis: Ensures type safety, variable/function declaration checks, and function parameter validation.
 
 AST Evaluation: Arithmetic and boolean expressions are evaluated using an AST structure.
+
 Final Grade: 10/10 🏅
