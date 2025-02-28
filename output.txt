@@ -1,0 +1,46 @@
+Scope : global
+name: AddFunction type: Null parameters: Int Int  parent class : global
+name: arr type: Int
+name: c type: Char value: 97
+name: f type: Float value: 5.7
+name: globalA type: Int value: 8
+name: globalB type: Int value: 9
+name: myclass type: class
+
+Scope : myclass Parent: global
+name: STR type: String value: 
+name: a type: Int value: 0
+name: b type: Int value: 0
+name: function1 type: Null parameters: Int Int String  parent class : myclass
+name: function2 type: Float parameters: Int Int  parent class : myclass
+
+Scope : function1 Parent: myclass
+name: a type: String value: 
+name: x type: Int value: 0
+name: y type: Int value: 0
+
+Scope : function2 Parent: myclass
+name: h type: Int value: 0
+name: x type: Int value: 0
+name: y type: Int value: 0
+
+Scope : AddFunction Parent: global
+name: bool type: Bool value: 1
+name: globalA type: 
+name: m type: Int value: 0
+name: n type: Int value: 0
+
+Scope : main Parent: global
+name: ana type: String value: "ana"
+name: b type: Bool value: 1
+name: c type: 
+name: f type: 
+name: m type: Float value: 1464.08
+name: maria type: String value: "ana"
+name: n type: Float value: 56.2
+name: res type: Float value: 50.5675
+name: v type: Bool value: 1
+name: var type: Float value: 7.8
+name: w type: Bool value: 1
+name: x type: Int value: 4
+

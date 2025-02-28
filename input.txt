@@ -1,0 +1,140 @@
+Group myclass[
+    Public Int a;
+    Public Int b;
+    Protected String STR;
+    Public Null Add(Int x, Int y, String a){};
+    Private Float jkjii(Int x, Int y)
+    {   Int x;
+        x::=y;
+       return x;
+    };
+];
+
+Group myclass2[
+    Constructor myclass2(){a::=b;};
+    Public Int a;
+    Public Int b;
+    Public Collection {Int} v[10];
+    Protected String STR;
+    Public Bool Add(Int x, myclass y){
+    String s;
+    return (x+y);};
+    Private Float jkjii(Int x, Int y){return this.x;};
+];
+
+
+
+Int a;
+Int b;
+Int c;
+Collection {String} array [9][90][120];
+
+Int sort(Collection{Int}[10] a){ return a; }
+Float Add(Int x, Int y){ Int z; return (x+y); }
+Null SORT(Collection{Int}[50] a, Bool (comp)(Int, Int)){ Bool a;}
+
+main
+   Int aa;
+   Int bb;
+   Float d;
+   String s;
+   myclass a;
+   myclass2 ab ::= new myclass2(7);
+   myclass2 x ::= ab;
+
+   if((a+b)>8)
+   then 
+   {
+   if((a+b)>9)
+   then {a::=9; a::=0;}
+   else {a::=9;}
+   a::=9; a::=0;
+   }
+   else 
+   {a::=10; m[7][9]::=(8-9); }
+
+
+
+   while((a+7)<9) do
+   { Int abc;
+     repeat
+   {
+     a ::= 5;
+     b ::= 10;
+     c ::= a;
+   } until(8>9)
+
+     a ::= 5;
+     b ::= 10;
+     c ::= a;
+   }
+
+   for( a::=9 to 20) do
+   {
+    b::=9;
+   }
+
+   a ::= 0;
+b ::= 1;
+c ::= 2;
+
+if((a+b)>c)
+then 
+{
+   a ::= a + b;
+   b ::= b + 1;
+   if((b2) > 10)
+   then 
+   {
+       c ::= c + 5;
+   }
+   else 
+   {
+       c ::= c - 1;
+   }
+}
+else 
+{
+   a ::= 10;
+   b ::= 20;
+}
+
+while((b - a) > 5) do
+{
+   a ::= a + 1;
+   repeat
+   {
+       c ::= c + 2;
+       b ::= b - 1;
+   } until(c > 100)
+}
+
+for(a ::= 1 to 10) do
+{ String varFor;
+   b ::= b + a;
+   if(((a + b[3] * c - 5) > (o.x + 2 * y)) && (z[10] <= o.y / 3 + w))
+   then 
+   {
+       c ::= c / 2;
+   }
+   else 
+   {
+       c ::= c + 3;
+   }
+}
+
+Int vartest;
+if(a > 7)
+{
+    Int ceva;
+}
+
+m[0][0] ::= (a + b);
+n[2][3] ::= (m[0][0] * c);
+compute Add(7,8,(11-9+o.a));
+print("Hello");
+typeOf(a);
+typeOf(a + b);
+typeOf(Add);
+compute Sort(a, comp);
+end

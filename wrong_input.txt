@@ -1,0 +1,52 @@
+Group myclass[
+    Public Int a;
+    Public Int b;
+    Protected String STR;
+    Public Null function1(Int x, Int y, String a){};
+    Private Float function2(Int x, Int y)
+    {   Int c;
+       return c;
+    };
+    
+];
+
+Int globalA;
+Int globalB;
+Char ch;
+Int x;
+String ch;
+Float globalf;
+Null AddFunction(Int m, Int n)
+{   Bool bool;
+    globalA ::= (m+n);
+}
+
+
+main 
+Int x ::= 9;
+Int y;
+f::=20.0;
+c::='a';
+String ana;
+ana ::= "ana";
+globalA::=5.8;
+Bool b;
+if(b==true)
+{b::=false;
+if(x>7)
+{
+   Bool varIf;
+   x::=ana+x;
+}
+x::=(x+89)/2;
+y::=y*3+7+globalf;
+arr[4]::=10;
+myclass b;
+varIf ::=90;
+}
+compute AddFunction(m,b);
+Collection{Int} v[40];
+v[9]::=7;
+v[9]::=b;
+
+end

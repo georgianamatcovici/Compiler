@@ -1,0 +1,57 @@
+Group myclass[
+    Public Int a;
+    Public Int b;
+    Protected String STR;
+    Public Null function1(Int x, Int y, String a){};
+    Private Float function2(Int x, Int y)
+    {   Int h;
+       return h;
+    };
+    
+];
+
+Int globalA ::=8;
+Int globalB ::= 9;
+Float f::=5.7;
+Char c::='a';
+Collection{Int} arr[40];
+
+Null AddFunction(Int m, Int n)
+{   Bool bool;
+    globalA ::= (m+n);
+}
+
+
+main 
+
+f::=154.8;
+c::='a';
+String ana;
+String maria;
+ana ::= "ana";
+maria ::= "ana";
+Bool b;
+b::=true;
+
+Float m::=9.7;
+Float n::=56.2;
+Float res;
+res::=((m * n) + (n - m)) / (m + 2.0);
+print( res );
+print( b && ((m < n) || (m * 2.0 > n && n / 2.0 <= m)) && !((m + n) > 100.0));
+Float var;
+var::=7.8;
+m::= 2.7*m*n-var;
+print(m);
+
+Int x ::=4;
+Bool v;
+Bool w;
+v::= w==true || x<3;
+print(x+3);
+typeOf(x+3);
+print(v);
+typeOf(v || x==4);
+print(x+v);
+
+end
